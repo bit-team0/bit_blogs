@@ -39,3 +39,10 @@ menu li {
 .mr {
   margin-right: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+  nav {
+    padding: 0 20px;
+    flex-wrap: wrap;
+  }
+}
